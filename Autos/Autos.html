@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Listado de Autos</title>
+  <link rel="icon" type="image/png" href="./favicon/Icono-removebg-preview.png">
+  <link rel="stylesheet" href="./styles/style.css" />
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="./img/Sin Fondo.png" alt="Logo Autos"></a>
+    <nav>
+      <ul>
+        <li><a href="/Inicio/Inicio.html">Inicio</a></li>
+        <li><a href="/Propiedades/Propiedades.html">Propiedades</a></li>
+        <li><a href="#">Autos</a></li>
+        <li><a href="/Bienes/Bienes.html">Bienes</a></li>
+        <li><a href="#contacto">Irigoyenbroker@gmail.com</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('./img/MotorA.webp');"></div>
+    <div class="slide" style="background-image: url('./img/MotorB.webp');"></div>
+    <div class="slide" style="background-image: url('./img/MotorC.webp');"></div>
+  </div>
+
+  <section class="buscador-container">
+    <input type="text" id="buscador" placeholder="Buscar auto..." />
+    <select id="estado">
+      <option value="">Estado</option>
+      <option value="nuevo">Nuevo</option>
+      <option value="usado">Usado</option>
+    </select>
+    <select id="marca">
+      <option value="">Marca</option>
+      <option value="Volkswagen">Volkswagen</option>
+      <option value="Range Rover">Range Rover</option>
+      <option value="Honda">Honda</option>
+      <option value="Suzuki">Suzuki</option>
+      <option value="Audi">Audi</option>
+      <option value="Peugeot">Peugeot</option>
+      <option value="BMW">BMW</option>
+    </select>
+    <select id="año">
+      <option value="">Año</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+      <option value="2020">2020</option>
+      <option value="2019">2019</option>
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013">2013</option>
+      <option value="2012">2012</option>
+      <option value="2011">2011</option>
+      <option value="2010">2010</option>
+      <option value="2009">2009</option>
+      <option value="2008">2008</option>
+      <option value="2007">2007</option>
+      <option value="2006">2006</option>
+      <option value="2004">2004</option>
+      <option value="2005">2005</option>
+      <option value="2004">2004</option>
+      <option value="2003">2003</option>
+    </select>
+    <input type="number" id="precio" placeholder="Precio máximo en USD" />
+  </section>
+
+  <main>
+    <section id="autos" class="autos-container"></section>
+  </main>
+
+  <footer>
+    <div class="contacto" id="contacto">
+      <a href="https://www.instagram.com/auto_listing/" target="_blank" title="Instagram">
+        <img src="img/INSTAGRAM.png" alt="Instagram" />
+      </a>
+      <a href="mailto:contacto@autos.com" title="Gmail">
+        <img src="img/GMAIL.png" alt="Gmail" />
+      </a>
+    </div>
+    <p>+54 9 11 4479 7122</p>
+    <p>&copy; <span id="copyrightYear"></span> Todos los derechos reservados por</p>
+    <p><a href="https://github.com/Kishvell">Kishvell</a></p>
+  </footer>  
+</body>
+</html>

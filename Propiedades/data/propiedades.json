@@ -1,0 +1,15 @@
+[
+  {
+    "titulo": "Dúplex Exclusivo en el Florido II (Barrio Privado)",
+    "descripcion": "Dúplex de 85 m² en barrio privado con piscina y vigilancia. Incluye living comedor, cocina con lavadero, toilette, 3 dormitorios, baño completo, garaje techado y jardín.",
+    "precio": "Consultar",
+    "imagen": "img/Propiedad El Florido.png",
+    "operacion": "Venta",
+    "tipo": "Dúplex",
+    "localidad": "El Florido II, Ruta 197, Malvinas Argentinas, Buenos Aires",
+    "contacto": "+54 9 11 4479 7122",
+    "habitaciones": 3,
+    "instalaciones": ["Piscina", "Vigilancia", "Garaje techado"],
+    "climatizacion": ["Aire acondicionado", "Calefacción"]
+  }
+]

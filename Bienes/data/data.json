@@ -1,0 +1,15 @@
+[
+  {
+    "nombre": "",
+    "descripcion": "",
+    "precio": "",
+    "imagen": "img/bien_corte_cnc.png",
+    "condicion": "",
+    "categoria": "",
+    "ubicacion": "",
+    "contacto": "+54 9 11 4479 7122",
+    "caracteristicas": {"potencia": "", "dimensiones": "", "peso": ""},
+    "accesorios_incluidos": ["", "", ""],
+    "energia": ["", ""]
+  }
+]

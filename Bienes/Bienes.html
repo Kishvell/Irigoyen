@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irigoyen Bienes</title>
+  <link rel="icon" type="image/png" href="./favicon/Irigoyen Bienes.png">
+  <link rel="stylesheet" href="./styles/style.css" />
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="./img/Irigoyen Bienes.png" alt="Logo Irigoyen"></a>
+    <nav>
+      <ul>
+        <li><a href="/Inicio/Inicio.html">Inicio</a></li>
+        <li><a href="/Propiedades/Propiedades.html">Propiedades</a></li>
+        <li><a href="/Autos/Autos.html">Autos</a></li>
+        <li><a href="#">Bienes</a></li>
+        <li><a href="#contacto">Irigoyenbroker@gmail.com</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('./img/Yate.jpg');"></div>
+    <div class="slide" style="background-image: url('./img/A\ la\ venta.jpg');"></div>
+  </div>
+
+<section class="buscador-container">
+  <input type="text" id="buscador" placeholder="Buscar bien..." />
+
+  <select id="categoria">
+    <option value="">Categoría</option>
+    <option value="maquinaria industrial">Maquinaria Industrial</option>
+    <option value="muebles">Muebles</option>
+    <option value="electrónica">Electrónica</option>
+    <option value="herramientas">Herramientas</option>
+    <option value="otros">Otros</option>
+  </select>
+
+  <select id="condicion">
+    <option value="">Condición</option>
+    <option value="nuevo">Nuevo</option>
+    <option value="usado">Usado</option>
+    <option value="reacondicionado">Reacondicionado</option>
+  </select>
+
+  <input type="number" id="precio" placeholder="Precio máximo en USD" />
+</section>
+
+  <main>
+    <section id="bienes" class="bienes-container"></section>
+  </main>
+
+  <footer>
+    <div class="contacto" id="contacto">
+      <a href="https://www.instagram.com/irigoyenbroker/" target="_blank" title="Instagram">
+        <img src="img/INSTAGRAM.png" alt="Instagram" />
+      </a>
+      <a href="mailto:Irigoyenbroker@gmail.com" title="Gmail">
+        <img src="img/GMAIL.png" alt="Gmail" />
+      </a>
+    </div>
+    <p>&copy; <span id="copyrightYear"></span> Todos los derechos reservados</p>
+    <p><a href="https://github.com/Kishvell">Kishvell</a></p>
+  </footer>  
+</body>
+</html>

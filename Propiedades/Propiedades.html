@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irigoyen Propiedades</title>
+  <link rel="icon" type="image/png" href="./favicon/Icono Propiedades.png">
+  <link rel="stylesheet" href="./styles/style.css" />
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <a href="#"><img src="./img/Sin fondo.png" alt="Logo Irigoyen"></a>
+    <nav>
+      <ul>
+        <li><a href="/Inicio/Inicio.html">Inicio</a></li>
+        <li><a href="#">Propiedades</a></li>
+        <li><a href="/Autos/Autos.html">Autos</a></li>
+        <li><a href="/Bienes/Bienes.html">Bienes</a></li>
+        <li><a href="#contacto">Irigoyenbroker@gmail.com</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('./img/FloridoII.png');"></div>
+    <iframe class="slide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1337.4474327187766!2d-58.69695313993742!3d-34.48975816950486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2de7ae7bc87%3A0xfc2cf46e423dad8d!2sAv.%20del%20Sesquicentenario%2060%2C%20B1613%20Los%20Polvorines%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1746810526429!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="slide" style="background-image: url('./img/FloridoII.png');"></div>
+  </div>
+
+  <section class="buscador-container">
+    <input type="text" id="buscador" placeholder="Buscar propiedad..." />
+    <select id="operacion">
+      <option value="">Operación</option>
+      <option value="venta">Venta</option>
+      <option value="alquiler">Alquiler</option>
+    </select>
+    <select id="tipo">
+      <option value="">Tipo</option>
+      <option value="departamento">Departamento</option>
+      <option value="casa">Casa</option>
+    </select>
+    <select id="localidad">
+      <option value="">Localidad</option>
+      <option value="Malvinas Argentinas">Malvinas Argentinas</option>
+    </select>
+    <input type="number" id="precio" placeholder="Precio máximo en USD" />
+  </section>
+
+  <main>
+    <section id="propiedades" class="propiedades-container"></section>
+  </main>
+
+  <footer>
+    <div class="contacto" id="contacto">
+      <a href="https://www.instagram.com/irigoyenbroker/" target="_blank" title="Instagram">
+        <img src="img/INSTAGRAM.png" alt="Instagram" />
+      </a>
+      <a href="mailto:Irigoyenbroker@gmail.com" title="Gmail">
+        <img src="img/GMAIL.png" alt="Gmail" />
+      </a>
+    </div>
+    <p>&copy; <span id="copyrightYear"></span> Todos los derechos reservados</p>
+    <p><a href="https://github.com/Kishvell">Kishvell</a></p>
+  </footer>  
+</body>
+</html>
